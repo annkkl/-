@@ -33,6 +33,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ExitPZ = new System.Windows.Forms.Button();
             this.iDЗаказаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодМаршрутаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаПоездкиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,6 +86,18 @@
             this.dataGridView1.Size = new System.Drawing.Size(641, 478);
             this.dataGridView1.TabIndex = 4;
             // 
+            // ExitPZ
+            // 
+            this.ExitPZ.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ExitPZ.BackgroundImage")));
+            this.ExitPZ.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitPZ.Location = new System.Drawing.Point(723, 454);
+            this.ExitPZ.Name = "ExitPZ";
+            this.ExitPZ.Size = new System.Drawing.Size(103, 36);
+            this.ExitPZ.TabIndex = 5;
+            this.ExitPZ.Text = "Назад";
+            this.ExitPZ.UseVisualStyleBackColor = true;
+            this.ExitPZ.Click += new System.EventHandler(this.button1_Click);
+            // 
             // iDЗаказаDataGridViewTextBoxColumn
             // 
             this.iDЗаказаDataGridViewTextBoxColumn.DataPropertyName = "ID_Заказа";
@@ -131,6 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(851, 513);
+            this.Controls.Add(this.ExitPZ);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -154,5 +168,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn iDМенеджераDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDКлиентаDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource заказыBindingSource;
+        private System.Windows.Forms.Button ExitPZ;
     }
 }

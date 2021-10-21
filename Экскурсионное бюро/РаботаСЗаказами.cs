@@ -30,5 +30,12 @@ namespace Экскурсионное_бюро
             pz.Show();
             this.Hide();
         }
+
+        private void ExitRZ_Click(object sender, EventArgs e)
+        {
+            Form1 frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
+        }
     }
 }

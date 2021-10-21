@@ -48,5 +48,12 @@ namespace Экскурсионное_бюро
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            РаботаСЗаказами rz = new РаботаСЗаказами();
+            rz.Show();
+            this.Hide();
+        }
     }
 }

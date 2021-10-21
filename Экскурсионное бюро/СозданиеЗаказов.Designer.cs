@@ -35,22 +35,23 @@
             System.Windows.Forms.Label кодМаршрутаLabel;
             System.Windows.Forms.Label датаПоездкиLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(СозданиеЗаказов));
-            this.клиентыBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.фИОTextBox = new System.Windows.Forms.TextBox();
             this.номерТелефонаTextBox = new System.Windows.Forms.TextBox();
             this.возрастTextBox = new System.Windows.Forms.TextBox();
-            this.заказыBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.кодМаршрутаComboBox = new System.Windows.Forms.ComboBox();
             this.датаПоездкиDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.заказыBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.клиентыBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.маршрутыBindingSource = new System.Windows.Forms.BindingSource(this.components);
             фИОLabel = new System.Windows.Forms.Label();
             номерТелефонаLabel = new System.Windows.Forms.Label();
             возрастLabel = new System.Windows.Forms.Label();
             кодМаршрутаLabel = new System.Windows.Forms.Label();
             датаПоездкиLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.клиентыBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.заказыBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.клиентыBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.маршрутыBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,10 +111,6 @@
             датаПоездкиLabel.TabIndex = 8;
             датаПоездкиLabel.Text = "Дата Поездки:";
             // 
-            // клиентыBindingSource
-            // 
-            this.клиентыBindingSource.DataSource = typeof(Экскурсионное_бюро.Клиенты);
-            // 
             // фИОTextBox
             // 
             this.фИОTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.клиентыBindingSource, "ФИО", true));
@@ -141,10 +138,6 @@
             this.возрастTextBox.Size = new System.Drawing.Size(100, 26);
             this.возрастTextBox.TabIndex = 5;
             // 
-            // заказыBindingSource
-            // 
-            this.заказыBindingSource.DataSource = typeof(Экскурсионное_бюро.Заказы);
-            // 
             // кодМаршрутаComboBox
             // 
             this.кодМаршрутаComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.заказыBindingSource, "КодМаршрута", true));
@@ -171,7 +164,7 @@
             // button1
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(63, 371);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 36);
@@ -179,6 +172,26 @@
             this.button1.Text = "Создать";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.Location = new System.Drawing.Point(385, 371);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 36);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Назад";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // заказыBindingSource
+            // 
+            this.заказыBindingSource.DataSource = typeof(Экскурсионное_бюро.Заказы);
+            // 
+            // клиентыBindingSource
+            // 
+            this.клиентыBindingSource.DataSource = typeof(Экскурсионное_бюро.Клиенты);
             // 
             // маршрутыBindingSource
             // 
@@ -189,7 +202,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(603, 450);
+            this.ClientSize = new System.Drawing.Size(658, 478);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(датаПоездкиLabel);
             this.Controls.Add(this.датаПоездкиDateTimePicker);
@@ -204,8 +218,8 @@
             this.Name = "СозданиеЗаказов";
             this.Text = "Создание заказов";
             this.Load += new System.EventHandler(this.СозданиеЗаказов_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.клиентыBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.заказыBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.клиентыBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.маршрутыBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -222,5 +236,6 @@
         private System.Windows.Forms.DateTimePicker датаПоездкиDateTimePicker;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.BindingSource маршрутыBindingSource;
+        private System.Windows.Forms.Button button2;
     }
 }

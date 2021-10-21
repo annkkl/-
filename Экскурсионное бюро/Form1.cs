@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Экскурсионное_бюро;
 
 namespace Экскурсионное_бюро
 {
@@ -21,6 +22,13 @@ namespace Экскурсионное_бюро
         {
             РаботаСЗаказами rz = new РаботаСЗаказами();
             rz.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ИнформацияПоСтрудникам infS = new ИнформацияПоСтрудникам();
+            infS.Show();
             this.Hide();
         }
     }

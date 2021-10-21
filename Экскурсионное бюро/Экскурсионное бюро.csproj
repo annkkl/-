@@ -63,10 +63,34 @@
     </Compile>
     <Compile Include="Model1.cs" />
     <Compile Include="Водители.cs" />
+    <Compile Include="Водитель.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Водитель.Designer.cs">
+      <DependentUpon>Водитель.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Гид.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Гид.Designer.cs">
+      <DependentUpon>Гид.cs</DependentUpon>
+    </Compile>
     <Compile Include="Гиды.cs" />
     <Compile Include="Заказы.cs" />
+    <Compile Include="ИнформацияПоСтрудникам.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ИнформацияПоСтрудникам.Designer.cs">
+      <DependentUpon>ИнформацияПоСтрудникам.cs</DependentUpon>
+    </Compile>
     <Compile Include="Клиенты.cs" />
     <Compile Include="Маршруты.cs" />
+    <Compile Include="Менеджер.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Менеджер.Designer.cs">
+      <DependentUpon>Менеджер.cs</DependentUpon>
+    </Compile>
     <Compile Include="Менеджеры.cs" />
     <Compile Include="СозданиеЗаказов.cs">
       <SubType>Form</SubType>
@@ -101,6 +125,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Водитель.resx">
+      <DependentUpon>Водитель.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Гид.resx">
+      <DependentUpon>Гид.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ИнформацияПоСтрудникам.resx">
+      <DependentUpon>ИнформацияПоСтрудникам.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Менеджер.resx">
+      <DependentUpon>Менеджер.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ПросмотрЗаказов.resx">
       <DependentUpon>ПросмотрЗаказов.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,9 +147,13 @@
       <DependentUpon>СозданиеЗаказов.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Водители.datasource" />
+    <None Include="Properties\DataSources\Гиды.datasource" />
     <None Include="Properties\DataSources\Заказы.datasource" />
+    <None Include="Properties\DataSources\ИнформацияПоСтрудникам.datasource" />
     <None Include="Properties\DataSources\Клиенты.datasource" />
     <None Include="Properties\DataSources\Маршруты.datasource" />
+    <None Include="Properties\DataSources\Менеджеры.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

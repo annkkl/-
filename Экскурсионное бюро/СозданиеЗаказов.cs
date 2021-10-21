@@ -19,8 +19,9 @@ namespace Экскурсионное_бюро
         Model1 db = new Model1();
         private void СозданиеЗаказов_Load(object sender, EventArgs e)
         {
-            //кодМаршрутаComboBox.DataSource = ds.Tables[0];
-            //кодМаршрутаComboBox.DisplayMember = "НазваниеМаршрута";
+            //клиентыBindingSource.DataSource = db.Клиенты.ToList();
+            //маршрутыBindingSource.DataSource = db.Маршруты.ToList();
+            //заказыBindingSource.DataSource = db.Заказы.ToList();
         }
         private void label2_Click(object sender, EventArgs e)
         {
@@ -41,6 +42,13 @@ namespace Экскурсионное_бюро
         private void button1_Click(object sender, EventArgs e)
         {
             db.SaveChanges();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            РаботаСЗаказами rz = new РаботаСЗаказами();
+            rz.Show();
+            this.Hide();
         }
     }
 }
