@@ -20,7 +20,7 @@ namespace Экскурсионное_бюро
         private void СозданиеЗаказов_Load(object sender, EventArgs e)
         {
             //клиентыBindingSource.DataSource = db.Клиенты.ToList();
-            //маршрутыBindingSource.DataSource = db.Маршруты.ToList();
+            маршрутыBindingSource.DataSource = db.Маршруты.ToList();
             //заказыBindingSource.DataSource = db.Заказы.ToList();
         }
         private void label2_Click(object sender, EventArgs e)

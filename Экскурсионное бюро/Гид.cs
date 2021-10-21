@@ -51,5 +51,19 @@ namespace Экскурсионное_бюро
             infS.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            РедактированиеГидов rg = new РедактированиеГидов();
+            rg.db = db;
+            Гиды гиды = (Гиды)гидыBindingSource.Current;
+            rg.гиды = гиды;
+            DialogResult dr = rg.ShowDialog();
+            if(dr == DialogResult.OK)
+            {
+                гидыBindingSource.DataSource = db.Гиды.ToList();
+            }
+
+        }
     }
 }

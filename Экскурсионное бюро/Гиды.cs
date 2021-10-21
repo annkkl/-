@@ -13,12 +13,12 @@ namespace Экскурсионное_бюро
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IDГида { get; set; }
 
-        [Key]
+        //[Key]
         [Column(Order = 1)]
         [StringLength(70)]
         public string ФИО { get; set; }
 
-        [Key]
+        //[Key]
         [Column(Order = 2)]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Возраст { get; set; }

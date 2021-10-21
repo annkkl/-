@@ -92,6 +92,12 @@
       <DependentUpon>Менеджер.cs</DependentUpon>
     </Compile>
     <Compile Include="Менеджеры.cs" />
+    <Compile Include="РедактированиеГидов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РедактированиеГидов.Designer.cs">
+      <DependentUpon>РедактированиеГидов.cs</DependentUpon>
+    </Compile>
     <Compile Include="СозданиеЗаказов.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="РаботаСЗаказами.resx">
       <DependentUpon>РаботаСЗаказами.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="РедактированиеГидов.resx">
+      <DependentUpon>РедактированиеГидов.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="СозданиеЗаказов.resx">
       <DependentUpon>СозданиеЗаказов.cs</DependentUpon>
