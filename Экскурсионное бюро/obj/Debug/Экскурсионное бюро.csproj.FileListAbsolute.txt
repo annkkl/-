@@ -1,0 +1,27 @@
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\Экскурсионное бюро.exe.config
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\Экскурсионное бюро.exe
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\Экскурсионное бюро.pdb
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\EntityFramework.dll
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\EntityFramework.xml
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное бюро.csprojAssemblyReference.cache
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.Form1.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.Properties.Resources.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.Водитель.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.Гид.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.ИнформацияПоСтрудникам.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.Менеджер.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.ПросмотрЗаказов.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.РаботаСЗаказами.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.РедактированиеГидов.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.СозданиеЗаказов.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное бюро.csproj.GenerateResource.cache
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное бюро.csproj.CoreCompileInputs.cache
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное бюро.csproj.CopyComplete
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное бюро.exe
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное бюро.pdb
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.ИнформацияПоТранспорту.resources
+C:\Users\323\Source\Repos\-\Экскурсионное бюро\obj\Debug\Экскурсионное_бюро.РедактированиеТранспорта.resources
