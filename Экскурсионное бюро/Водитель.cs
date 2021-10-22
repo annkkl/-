@@ -45,7 +45,7 @@ namespace Экскурсионное_бюро
                 MessageBox.Show("Успешно!");
                 водителиBindingSource.DataSource = db.Водители.ToList();
             }
-            catch (Exception ex)
+            catch (Exception ex)//условие
             {
                 MessageBox.Show(ex.Message);
                 return;
