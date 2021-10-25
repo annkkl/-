@@ -77,11 +77,23 @@
     </Compile>
     <Compile Include="Гиды.cs" />
     <Compile Include="Заказы.cs" />
+    <Compile Include="ИнформацияПоМаршрутам.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ИнформацияПоМаршрутам.Designer.cs">
+      <DependentUpon>ИнформацияПоМаршрутам.cs</DependentUpon>
+    </Compile>
     <Compile Include="ИнформацияПоСтрудникам.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ИнформацияПоСтрудникам.Designer.cs">
       <DependentUpon>ИнформацияПоСтрудникам.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ИнфрмацияПоТранспорту.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ИнфрмацияПоТранспорту.Designer.cs">
+      <DependentUpon>ИнфрмацияПоТранспорту.cs</DependentUpon>
     </Compile>
     <Compile Include="Клиенты.cs" />
     <Compile Include="Маршруты.cs" />
@@ -92,11 +104,41 @@
       <DependentUpon>Менеджер.cs</DependentUpon>
     </Compile>
     <Compile Include="Менеджеры.cs" />
+    <Compile Include="РедактированиеВодителей.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РедактированиеВодителей.Designer.cs">
+      <DependentUpon>РедактированиеВодителей.cs</DependentUpon>
+    </Compile>
     <Compile Include="РедактированиеГидов.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="РедактированиеГидов.Designer.cs">
       <DependentUpon>РедактированиеГидов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="РедактированиеЗаказов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РедактированиеЗаказов.Designer.cs">
+      <DependentUpon>РедактированиеЗаказов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="РедактированиеМаршрутов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РедактированиеМаршрутов.Designer.cs">
+      <DependentUpon>РедактированиеМаршрутов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="РедактированиеМенеджеров.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РедактированиеМенеджеров.Designer.cs">
+      <DependentUpon>РедактированиеМенеджеров.cs</DependentUpon>
+    </Compile>
+    <Compile Include="РедактированиеТранспорта.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РедактированиеТранспорта.Designer.cs">
+      <DependentUpon>РедактированиеТранспорта.cs</DependentUpon>
     </Compile>
     <Compile Include="СозданиеЗаказов.cs">
       <SubType>Form</SubType>
@@ -137,8 +179,14 @@
     <EmbeddedResource Include="Гид.resx">
       <DependentUpon>Гид.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ИнформацияПоМаршрутам.resx">
+      <DependentUpon>ИнформацияПоМаршрутам.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ИнформацияПоСтрудникам.resx">
       <DependentUpon>ИнформацияПоСтрудникам.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ИнфрмацияПоТранспорту.resx">
+      <DependentUpon>ИнфрмацияПоТранспорту.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Менеджер.resx">
       <DependentUpon>Менеджер.cs</DependentUpon>
@@ -149,8 +197,23 @@
     <EmbeddedResource Include="РаботаСЗаказами.resx">
       <DependentUpon>РаботаСЗаказами.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="РедактированиеВодителей.resx">
+      <DependentUpon>РедактированиеВодителей.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="РедактированиеГидов.resx">
       <DependentUpon>РедактированиеГидов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="РедактированиеЗаказов.resx">
+      <DependentUpon>РедактированиеЗаказов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="РедактированиеМаршрутов.resx">
+      <DependentUpon>РедактированиеМаршрутов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="РедактированиеМенеджеров.resx">
+      <DependentUpon>РедактированиеМенеджеров.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="РедактированиеТранспорта.resx">
+      <DependentUpon>РедактированиеТранспорта.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="СозданиеЗаказов.resx">
       <DependentUpon>СозданиеЗаказов.cs</DependentUpon>
@@ -163,6 +226,7 @@
     <None Include="Properties\DataSources\Клиенты.datasource" />
     <None Include="Properties\DataSources\Маршруты.datasource" />
     <None Include="Properties\DataSources\Менеджеры.datasource" />
+    <None Include="Properties\DataSources\Транспорт.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

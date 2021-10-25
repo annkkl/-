@@ -66,6 +66,7 @@
             this.EditDr.TabIndex = 1;
             this.EditDr.Text = "Редактировать";
             this.EditDr.UseVisualStyleBackColor = true;
+            this.EditDr.Click += new System.EventHandler(this.EditDr_Click);
             // 
             // DeleteDr
             // 

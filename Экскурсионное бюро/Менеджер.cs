@@ -54,6 +54,15 @@ namespace Экскурсионное_бюро
 
         private void EditM_Click(object sender, EventArgs e)
         {
+            РедактированиеМенеджеров rm = new РедактированиеМенеджеров();
+            rm.db = db;
+            Менеджеры менеджеры = (Менеджеры)менеджерыBindingSource.Current;
+            rm.менеджеры = менеджеры;
+            DialogResult dr = rm.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                менеджерыBindingSource.DataSource = db.Менеджеры.ToList();
+            }
 
         }
     }

@@ -31,5 +31,19 @@ namespace Экскурсионное_бюро
             infS.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ИнфрмацияПоТранспорту infT = new ИнфрмацияПоТранспорту();
+            infT.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ИнформацияПоМаршрутам infM = new ИнформацияПоМаршрутам();
+            infM.Show();
+            this.Hide();
+        }
     }
 }

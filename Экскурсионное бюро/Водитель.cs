@@ -51,5 +51,19 @@ namespace Экскурсионное_бюро
                 return;
             }
         }
+
+        private void EditDr_Click(object sender, EventArgs e)
+        {
+            РедактированиеВодителей rd = new РедактированиеВодителей();
+            rd.db = db;
+            Водители водители = (Водители)водителиBindingSource.Current;
+            rd.водители = водители;
+            DialogResult dr = rd.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                водителиBindingSource.DataSource = db.Водители.ToList();
+            }
+
+        }
     }
 }

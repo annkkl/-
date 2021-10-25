@@ -46,7 +46,15 @@ namespace Экскурсионное_бюро
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            РедактированиеЗаказов rz = new РедактированиеЗаказов();
+            rz.db = db;
+            Заказы заказы = (Заказы)заказыBindingSource.Current;
+            rz.заказы = заказы;
+            DialogResult dr = rz.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                заказыBindingSource.DataSource = db.Заказы.ToList();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
