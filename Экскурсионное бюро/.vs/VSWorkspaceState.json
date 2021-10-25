@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\ru",
+    "\\bin\\Release",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\obj\\Release",
+    "\\Properties",
+    "\\Properties\\DataSources"
+  ],
+  "SelectedNode": "\\Properties\\Settings.Designer.cs",
+  "PreviewInSolutionExplorer": false
+}

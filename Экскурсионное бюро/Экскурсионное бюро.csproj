@@ -83,6 +83,12 @@
     <Compile Include="ИнформацияПоСтрудникам.Designer.cs">
       <DependentUpon>ИнформацияПоСтрудникам.cs</DependentUpon>
     </Compile>
+    <Compile Include="ИнформацияПоТранспорту.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ИнформацияПоТранспорту.Designer.cs">
+      <DependentUpon>ИнформацияПоТранспорту.cs</DependentUpon>
+    </Compile>
     <Compile Include="Клиенты.cs" />
     <Compile Include="Маршруты.cs" />
     <Compile Include="Менеджер.cs">
@@ -97,6 +103,12 @@
     </Compile>
     <Compile Include="РедактированиеГидов.Designer.cs">
       <DependentUpon>РедактированиеГидов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="РедактированиеТранспорта.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РедактированиеТранспорта.Designer.cs">
+      <DependentUpon>РедактированиеТранспорта.cs</DependentUpon>
     </Compile>
     <Compile Include="СозданиеЗаказов.cs">
       <SubType>Form</SubType>
@@ -140,6 +152,9 @@
     <EmbeddedResource Include="ИнформацияПоСтрудникам.resx">
       <DependentUpon>ИнформацияПоСтрудникам.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ИнформацияПоТранспорту.resx">
+      <DependentUpon>ИнформацияПоТранспорту.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Менеджер.resx">
       <DependentUpon>Менеджер.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +167,9 @@
     <EmbeddedResource Include="РедактированиеГидов.resx">
       <DependentUpon>РедактированиеГидов.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="РедактированиеТранспорта.resx">
+      <DependentUpon>РедактированиеТранспорта.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="СозданиеЗаказов.resx">
       <DependentUpon>СозданиеЗаказов.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,6 +181,7 @@
     <None Include="Properties\DataSources\Клиенты.datasource" />
     <None Include="Properties\DataSources\Маршруты.datasource" />
     <None Include="Properties\DataSources\Менеджеры.datasource" />
+    <None Include="Properties\DataSources\Транспорт.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
